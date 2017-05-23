@@ -13,7 +13,7 @@
     ignore_errors: true
   - name: deploy war file on tomcat server
     copy:
-      src: /var/lib/jenkins/workspace/cicd/web/target/time-tracker-web-0.3.1-SNAPSHOT.war
+      src: /var/lib/jenkins/workspace/devops-CICD/web/target/time-tracker-web-0.3.1-SNAPSHOT.war
       dest: /opt/tomcat/webapps/
       owner: tomcat
       group: tomcat
